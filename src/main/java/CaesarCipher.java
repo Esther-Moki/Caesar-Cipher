@@ -7,7 +7,7 @@ public class CaesarCipher{
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
 
     public static String encrypting(String pText, int Key){
-      pText = pText.toUpperCase();
+      pText = pText.toLowerCase();
       String cText = "";
       for(int i=0; i<pText.length(); i++){
           int charIndex = alphabet.indexOf(pText.charAt(i));
@@ -19,7 +19,7 @@ public class CaesarCipher{
       return cText;
     }
     public static String decrypting(String cText, int Key){
-       cText = cText.toUpperCase();
+       cText = cText.toLowerCase();
        String pText = "";
        for(int i=0; i<cText.length(); i++){
            int charIndex = alphabet.indexOf(cText.charAt(i));
