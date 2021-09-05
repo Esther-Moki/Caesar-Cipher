@@ -1,17 +1,3 @@
-//
-//import java.util.ArrayList;
-//import java.util.List;
-//
-//public class CaesarCipher {
-//
-//    public ArrayList<String> checkString(String countUpToA){
-//    ArrayList<String> result = new ArrayList<String>();
-//    for (String returnValues : checkString()) {
-////        result.add(returnValues);
-//        }
-////        return result;
-//     }
-//
 
 
 import java.util.Scanner;
@@ -21,7 +7,7 @@ public class CaesarCipher{
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
 
     public static String encrypting(String pText, int Key){
-      pText = pText.toLowerCase();
+      pText = pText.toUpperCase();
       String cText = "";
       for(int i=0; i<pText.length(); i++){
           int charIndex = alphabet.indexOf(pText.charAt(i));
@@ -33,7 +19,7 @@ public class CaesarCipher{
       return cText;
     }
     public static String decrypting(String cText, int Key){
-       cText = cText.toLowerCase();
+       cText = cText.toUpperCase();
        String pText = "";
        for(int i=0; i<cText.length(); i++){
            int charIndex = alphabet.indexOf(cText.charAt(i));
@@ -64,3 +50,19 @@ public class CaesarCipher{
     }
 
 }
+
+
+//
+//import java.util.ArrayList;
+//import java.util.List;
+//
+//public class CaesarCipher {
+//
+//    public ArrayList<String> checkString(String countUpToA){
+//    ArrayList<String> result = new ArrayList<String>();
+//    for (String returnValues : checkString()) {
+////        result.add(returnValues);
+//        }
+////        return result;
+//     }
+//
