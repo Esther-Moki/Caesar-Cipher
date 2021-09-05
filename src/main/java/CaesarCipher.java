@@ -1,6 +1,7 @@
 
 
 import java.util.Scanner;
+import java.io.Console;
 
 public class CaesarCipher{
 
