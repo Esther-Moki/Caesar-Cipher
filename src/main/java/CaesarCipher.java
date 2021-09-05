@@ -14,6 +14,8 @@
 //
 
 
+import java.util.Scanner;
+
 public class CaesarCipher{
 
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
@@ -48,7 +50,17 @@ public class CaesarCipher{
 
 
     public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your text here");
+        String plain = scan.nextLine();
 
+        System.out.println("Enter the key");
+        int Key = scan.nextInt();
+
+        String cipherText = encrypting(plain,Key);
+        System.out.println("The Cipher text:" + cipherText);
+
+        System.out.println("The decoded message is:" + decrypting(cipherText,Key));
     }
 
 }
