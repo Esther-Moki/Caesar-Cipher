@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fd297d9-cf65-4e84-9c4b-58318a18b67f" name="Default Changelist" comment="" />
+    <list default="true" id="3fd297d9-cf65-4e84-9c4b-58318a18b67f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Blueprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Caesar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CaesarCipher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CaesarCipherTest.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
