@@ -12,10 +12,10 @@ import java.util.Scanner;
             System.out.println("Enter the key");
             int Key = scan.nextInt();
 
-            String cipherText = caesar.encrypting(plain, Key);
+            String cipherText = new Caesar().encrypting(plain, Key);
             System.out.println("The Cipher text:" + cipherText);
 
-            System.out.println("The decoded message is:" + caesar.decrypting(cipherText, Key));
+            System.out.println("The decoded message is:" + new Caesar().decrypting(cipherText, Key));
         }
 
 
